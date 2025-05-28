@@ -1,4 +1,5 @@
-from test_app import app
+from app import app_flask as app
+import pytest
 
 def test_hello_world():
   """Test the hello_world route."""
